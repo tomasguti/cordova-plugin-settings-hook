@@ -86,7 +86,8 @@ module.exports = function(context) {
                 'android-installLocation': {target: 'AndroidManifest.xml', parent: './', destination: 'android:installLocation'},
                 'android-activity-hardwareAccelerated': {target: 'AndroidManifest.xml', parent: 'application', destination: 'android:hardwareAccelerated'},
                 'android-configChanges': {target: 'AndroidManifest.xml', parent: "__cordovaMainActivity__", destination: 'android:configChanges'},
-                'android-launchMode': {target: 'AndroidManifest.xml', parent: "__cordovaMainActivity__", destination: 'android:launchMode'},
+                'android-excludeFromRecents': {target: 'AndroidManifest.xml', parent: '__cordovaMainActivity__', destination: 'android:excludeFromRecents'},
+				'android-launchMode': {target: 'AndroidManifest.xml', parent: "__cordovaMainActivity__", destination: 'android:launchMode'},
                 'android-theme': {target: 'AndroidManifest.xml', parent: "__cordovaMainActivity__", destination: 'android:theme'},
                 'android-windowSoftInputMode': {target: 'AndroidManifest.xml', parent: "__cordovaMainActivity__", destination: 'android:windowSoftInputMode'},
                 'android-applicationName': {target: 'AndroidManifest.xml', parent: 'application', destination: 'android:name'}
